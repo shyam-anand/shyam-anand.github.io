@@ -2,24 +2,33 @@
   <head>
     <title>Shyam Anand</title>
     <link rel="stylesheet" href="main.css" />
-    <!-- <link href="https://fonts.googleapis.com/css2?family=Noto+Sans&family=Playfair+Display&display=swap" rel="stylesheet">  -->
+    <link rel="stylesheet" href="fonts.css" />
+    <link rel="stylesheet" href="colours.css" />
+    <link rel="stylesheet" href="layout.css" />
+    <link rel="stylesheet" href="typography.css" />
   </head>
   <body>
-    <div class="headers">
-      <div class="headers-content">
+    <div class="headers bg-dark">
+      <div class="headers-content content-width">
         <span class="headers-left">
-          <span class="title">SHYAM ANAND</span>
+          <span class="title handwriting white">shyam's page</span>
         </span>
-        <span class="headers-right">
-          <div class="links-grid">
-            <a class="link" href="resume.html">Resume</a>
-            <a class="link" href="https://linkedin.com/shyamanand">LinkedIn</a>
-            <a class="link" href="mailto:shyam-anand@protonmail.com">Email</a>
+        <span class="headers-right full-height right">
+          <div class="grid-3 vertical-center">
+            <div class="full-height">
+              <a class="monospace" href="resume.html">resume</a>
+            </div>
+            <span class="full-height">
+              <a class="monospace" href="https://linkedin.com/shyamanand">linkedin</a>
+            </span>
+            <span class="full-height">
+              <a class="monospace" href="mailto:shyam-anand@protonmail.com">email</a>
+            </span>
           </div>
         </span>
       </div>
     </div>
-    <div class="content">
+    <div class="content-width full-height">
       <div class="spacer">&nbsp;</div>
       <div class="main-container">
         <div class="grid-container">
@@ -30,8 +39,9 @@
           </div>
           <div class="grid-item">
             <div class="main-content">
-              <div class="hello"><h1>I'm Shyam Anand.</h1></div>
-              <div class="intro">
+              <div class="hello">
+                <h1 class="handwriting">Hey! I'm Shyam Anand.</h1></div>
+              <div class="intro serif">
                 <div>
                   <p>I'm a <a href="Shyam%20Anand.pdf" download>Software Engineer/Architect</a>.</p>
                   <p>I work at <a href="https://turvo.com">Turvo</a>, Hyderabad, since November '17.
@@ -46,21 +56,33 @@
           </div>
         </div>
       </div>
-      <div class="sign-off">
+      <div class="sign-off serif">
         <p>"Talk is cheap, show me the code."</p>
         <p>"It's not magic, it's talent and sweat."</p>
       </div>
     </div>
-    <div class="footer-container">
-      <div class="footer">
-        <div class="credits">
-          Non Serviam.
-        </div>
-        <div class="social">[&nbsp;
-          <a href="https://keybase.io/heavydistortion/chat">Keybase</a>&nbsp;|&nbsp;
-          <a href="https://twitter.com/HeavyDistortion">Twitter</a>
-          &nbsp;]
-        <div>
+    <div class="footer-container bg-white">
+      <div class="content-width full-height">
+        <span class="sans left vertical-center">
+          <span class="small-xx handwriting">shyam</span>
+          <span class="small-x copyleft">&copy;</span>
+          <span class="small-xx handwriting">2020</span>
+        </span>
+        <span class="credits center poiret-one bold">
+          non serviam
+        </span>
+        <span class="social monospace dark right vertical-center">
+          [
+          <span class="expand-on-hover">
+            <a class="small monospace dark" href="https://keybase.io/heavydistortion/chat">keybase</a>
+          </span>
+          ]
+          [
+          <span class="expand-on-hover">
+            <a class="small monospace dark" href="https://twitter.com/HeavyDistortion">twitter</a>
+          </span>
+          ]
+        <span>
       </div>
     </div>
   </body>

@@ -1,0 +1,76 @@
+:root {
+  --font-monospace: 'Fira Code', monospace;
+  --font-sans-serif: 'Open Sans', sans-serif;
+  --font-serif: 'Lora', serif;
+  --font-display: 'Playfair Display', serif;
+  --font-handwriting: 'Caveat';
+}
+
+/* Fixed Width */
+
+.monospace {
+  font-family: var(--font-monospace);
+}
+
+.inconsolata {
+  font-family: 'Inconsolata', monospace;
+}
+
+.nixie-one {
+  font-family: 'Nixie One', cursive;
+}
+
+/* Sans */
+
+.sans {
+  font-family: var(--font-sans-serif);
+}
+
+.noto-sans {
+  font-family: 'Noto Sans', sans-serif;
+}
+
+/* Serif */
+
+.serif {
+  font-family: var(--font-serif);
+}
+
+.libre-baskerville {
+  font-family: 'Libre Baskerville', serif;
+}
+.vollkorn {
+  font-family: 'Vollkorn', serif;
+}
+
+/* Display fonts */
+
+.display {
+  font-family: var(--font-display);
+}
+
+.palatino {
+  font-family: 'Palatino', serif;
+}
+
+.abril-fatface {
+  font-family: 'Abril Fatface', cursive;
+}
+
+.gruppo {
+  font-family: 'Gruppo', cursive;
+}
+
+.poiret-one {
+  font-family: 'Poiret One', cursive;
+}
+
+/* Handwriting fonts */
+
+.handwriting {
+  font-family: var(--font-handwriting), cursive;
+}
+
+.caveat {
+  font-family: 'Caveat', cursive;
+}

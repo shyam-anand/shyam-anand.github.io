@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Lora&family=Vollkorn&family=Libre+Baskerville&family=Fira+Code:wght@300;400&family=Anonymous+Pro&family=Noto+Sans&family=Playfair+Display&family=Abril+Fatface&family=Nixie+One&family=Poiret+One&family=Gruppo&family=Inconsolata:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;700&family=Lora&family=Vollkorn&family=Libre+Baskerville&family=Fira+Code:wght@300;400&family=Anonymous+Pro&family=Noto+Sans&family=Playfair+Display&family=Abril+Fatface&family=Nixie+One&family=Poiret+One&family=Gruppo&family=Inconsolata:wght@200&display=swap');
 
 html, body {
   height: 100%;
@@ -8,78 +8,49 @@ body {
   margin: auto;
 }
 
+body a {
+   color: var(--green);
+   text-decoration: none;
+   font-family: var(--font-sans-serif);
+ }
+
 .headers {
   position: fixed;
   top: 0;
   width: 100%;
   height: 80px;
   z-index: 1;
-  background-color: #ffffff;
   box-shadow: 0 3px 3px 0 rgba(0, 0, 0, .3);
-  color: #000000;
 }
 
 .headers-content {
-  max-width: 70%;
   margin: auto;
 }
 
 .headers-left {
-  float: left;
   height: 80px;
   position: relative;
-  /* border: 1px solid blue; */
 }
 
 .headers-left .title {
-  font-family: "Playfair Display", "Palatino", serif;
-  /* font-family: 'Abril Fatface', cursive; */
-  /* font-family: 'Nixie One', cursive; */
-  /* font-family: 'Poiret One', cursive; */
-  /* font-family: 'Gruppo', cursive; */
-  /* font-family: 'Inconsolata', monospace; */
   font-size: 42px;
   font-style: normal;
   font-variant: normal;
   font-weight: 400;
   line-height: 80px;
-  color: #000000;
   /* border: 1px solid cyan; */
 }
 
-.headers-right {
-  float: right;
-  /* line-height: 80px; */
-  font-family: 'Noto Sans', sans-serif;
-  padding-top: 20px;
-}
-
-.links-grid {
-  display: grid;
-  grid-template-columns: auto auto auto;
-}
-
-.link:hover {
-}
-
 .headers-right a {
-  transition: .3s ease;
-  color: #669499;
-  text-decoration: none;
+  transition: .4s ease;
   padding-left: 18px;
   padding-right: 18px;
-  padding-top: 16px;
-  padding-bottom: 18px;
+  /* padding-top: 19px;
+  padding-bottom: 18px; */
 }
 
 .headers-right a:hover {
-  border-bottom: 5px solid #669499;
-}
-
-.content {
-  max-width: 70%;
-  height: 100%;
-  margin: auto;
+  border-bottom: 5px solid var(--green);
 }
 
 .spacer {
@@ -87,20 +58,9 @@ body {
 }
 
 .main-container {
-  position: relative;
   min-height: 250px;
-  height: 100%
   overflow: visible;
   /* border: 5px solid green; */
-}
-
-.grid-container {
-  display: grid;
-  grid-template-columns:  auto auto;
-  grid-column-gap: 60px;
-}
-
-.grid-item {
 }
 
 .img-container {
@@ -115,10 +75,9 @@ body {
 }
 
 .profile-pic {
-  opacity: 1;
+  opacity: .9;
   display: block;
   width: 100%;
-  width: 240px;
   transition: .5s ease;
   backface-visibility: hidden;
 }
@@ -152,11 +111,13 @@ body {
 
 .main-content {
   position: relative;
-  /* top: 20px; */
+}
+
+.main-content a {
+  color: #4d8c6f;
 }
 
 .main-content h1 {
-  font-family: 'Playfair Display', serif;
   font-size: 72px;
   font-weight: 400;
 }
@@ -168,22 +129,11 @@ body {
 }
 
 .main-content .intro {
-  /* font-family: 'Noto Sans', sans-serif; */
-  /* font-family: 'Libre Baskerville', serif; */
-  /* font-family: 'Vollkorn', serif; */
-  font-family: 'Lora', serif;
   font-size: 18px;
   font-weight: 400;
 }
 
-.main-content a {
-  transition: .7;
-  color: #669499;
-  text-decoration: none;
-}
-
 .main-content a:hover {
-  color: #669499;
   text-decoration: underline;
 }
 
@@ -201,41 +151,53 @@ body {
 }
 
 .footer-container {
+  position: fixed;
   bottom: 0;
   height: 40px;
   width: 100%;
   background-color: #f1f1f1;
-  position: absolute;
   box-shadow: 0 0 3px 1px rgba(0, 0, 0, .3);
   z-index: 1;
 }
 
 .footer {
   position: relative;
-  padding: 10px;
-  font-family: 'Fira Code', monospace;
+  /* padding: 10px;
   font-weight: 300;
-  font-size: 13px;
-  max-width: 70%;
-  margin: auto;
+  font-size: 16px;
+
+  margin: auto; */
 }
 
 .footer .credits {
-  float: left;
-}
-
-.footer .social {
-  float: right;
+  /* float: left; */
+  font-size: 16px;
 }
 
 .footer a {
-  transition: 3s ease;
+  color: var(--green);
+  font-weight: 500;
   text-decoration: none;
-  color: #669499;
+}
+
+.social span {
+  transition: 1s ease;
+  padding-left: 2px;
+  padding-right: 2px;
+}
+
+.social span:hover {
+  padding-left: 8px;
+  padding-right: 8px;
+  border-bottom: 1px solid var(--green);
 }
 
 .footer a:hover {
-  transition: 3s ease;
-  text-decoration: underline;
+  /* color: var(--green); */
   text-transform: capitalize;
+}
+
+.copyleft {
+  display:inline-block;
+  transform: rotate(180deg);
 }
