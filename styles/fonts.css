@@ -74,3 +74,15 @@
 .caveat {
   font-family: 'Caveat', cursive;
 }
+
+.small {
+  font-size: 12px;
+}
+
+.medium {
+  font-size: 20px;
+}
+
+.big {
+  font-size: 22px;
+}
