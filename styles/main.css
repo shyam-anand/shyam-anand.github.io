@@ -14,8 +14,20 @@ body a {
    font-family: var(--font-sans-serif);
  }
 
-.border {
-  border: 1px solid red;
+.red-border {
+  border: 1px solid var(--red);
+}
+
+.green-border {
+  border: 1px solid var(--green);
+}
+
+.blue-border {
+  border: 1px solid var(--blue);
+}
+
+.dark-border {
+  border: 1px solid var(--dark);
 }
 
 .unsupported {
@@ -86,14 +98,14 @@ body a {
 }
 
 .img-container {
-  max-width: 240px;
-  max-height: 240px;
-  overflow: hidden;
-  border: 1px #669499;
-  border-style: ridge;
-  border-radius: 50%;
+  display: block;
   position: relative;
+  overflow: hidden;
   top: 65px;
+  width: 240px;
+  height: 240px;
+  border-radius: 50%;
+  box-shadow: 0 0 5px 0 var(--dark);
 }
 
 .profile-pic {
