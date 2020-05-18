@@ -72,6 +72,7 @@ body a {
   box-shadow: 0 0 25px var(--green);
   background-color: var(--green);
   color: var(--dark);
+  opacity: .9;
 }
 
 .spacer {
@@ -86,7 +87,7 @@ body a {
 
 .img-container {
   max-width: 240px;
-  height: 240px;
+  max-height: 240px;
   overflow: hidden;
   border: 1px #669499;
   border-style: ridge;
@@ -210,7 +211,7 @@ body a {
 .social span:hover {
   padding-left: 8px;
   padding-right: 8px;
-  border-bottom: 1px solid var(--green);
+  /* border-bottom: 1px solid var(--dark); */
 }
 
 .footer a:hover {
