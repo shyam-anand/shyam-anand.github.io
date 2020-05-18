@@ -109,7 +109,7 @@ body a {
 }
 
 .profile-pic {
-  opacity: .9;
+  opacity: 1;
   display: block;
   width: 100%;
   transition: .5s ease;
