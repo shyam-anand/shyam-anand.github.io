@@ -163,14 +163,14 @@ body a {
 
 .sign-off {
   position: absolute;
-  bottom: 48px;
+  bottom: 8px;
   width: 70%;
   margin: auto;
   text-align: center;
   font-style: oblique;
   color: #555555;
   line-height: 10px;
-  background-color: white;
+  background-color: #ffffff;
   opacity: .9;
 }
 
