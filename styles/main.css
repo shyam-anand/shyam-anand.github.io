@@ -107,6 +107,7 @@ body a {
   width: 110px;
   height: 110px;
   border-radius: 50%;
+  border-size: 0px;
   /* box-shadow: 0 0 5px 0 var(--dark); */
 }
 
