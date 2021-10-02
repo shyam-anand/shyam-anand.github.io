@@ -161,12 +161,11 @@ body a {
 .intro div {
   /* border: 1px solid yellow; */
   /* position: relative;
-  top: 60px; */
+  top: 0px; */
 }
 
 .main-content .intro {
-  font-size: 18px;
-  font-weight: 400;
+  font-size: 22px;
 }
 
 .main-content a:hover {
