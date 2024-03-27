@@ -1,0 +1,22 @@
+I have over 14 years of software engineering experience, and have designed and built horizontally scalable, distributed back-ends on top of RESTful API services, MySQL and NoSQL data-stores, and deployed on cloud. I've led engineering for two startups, built tech-stacks, and migrated monolithic stacks to distributed architectures, as well as created teams, established software development processes.
+
+I am currently a consultant at Pyyne, where I started in March. I am open to senior and leadership roles such as Staff/Senior Software Engineer, Software Architect, and SRE.
+
+Before Pyyne I was a Senior Software Engineer in the Capacity Planning team for Google Cloud Storage. At this role, I conceptualised and implemented redesigns to data pipelines that has resulted in improved fault tolerance and reliability. I also led tech-debt reduction efforts at Google, by identifying and logging tech-debt related tasks, and leading "Fixit" weeks.
+
+I also did freelance consulting for Lumos Labs, where I built the software infrastructure on AWS for the Hackathons portal, and wrote the backend in Java.
+
+Before that I was at Turvo, where I joined as a Senior Software Engineer, and was promoted to Software Architect. I developed and maintained Turvo’s Java codebase, contributed to the design and implementation of “Inventory and Warehouse Management” services that was built using microservices architecture.
+
+Before Turvo, I was Software Architect at NowFloats and led the development of the backend for ana.chat. I designed the backend infrastructure on AWS, and used IaC (CloudFormation), which helped easy deployment of the project on clients’ infrastructure. I joined NowFloats after it acquired Lookup, where I was VP of Engineering. At Lookup, I joined at an early stage, and led the scale-up of the company. I led the migration of Lookup’s platform from the initial monolithic design (Python, MySQL, MongooseIM) to a distributed architecture that used Java (with Spring framework), MySQL, MongoDB, Elasticsearch, and was deployed on AWS.
+
+Before Lookup, I was at ZipDial. I was a lead engineer and led the development of IVR based applications, which was the company’s flagship project. ZipDial was acquired by Twitter, and I left the company six months after the acquisition.
+
+I began my career at Innoz, a startup that was incubated at IIM Ahmedabad (CIIE) and Technopark (Trivandrum) and wrote the first lines of code for the platform. I subsequently built the engineering team and scaled up the platform from a simple PHP-MySQL stack to a distributed polyglot stack incorporating Java, PHP, MySQL, MongoDB, Solr, and other technologies.
+
+With a background in startups, I am accustomed to working at a fast pace and with diverse teams. I am passionate about solving software engineering problems proactively, whether by improving existing systems or rebuilding them to address scaling and resiliency challenges.
+
+I'm a stickler for code quality -- I prioritize addressing tech debt, and have taken measures to avoid allowing code into production, which does not meet quality standards. At Turvo, I initiated and developed an automated code quality control system using Sonar, which was subsequently integrated into the VCS. At Google, I identified tech-debt related tasks and logged them in the team’s project board. I also led a Fixit week at Google, where developers volunteer to focus on reducing tech-debt.
+
+In addition to software engineering, I have also dabbled in product management and UI/UX design while serving as the head of engineering for Lookup. I conceptualized mobile app interfaces that resulted in increased customer engagement, conversions, and retention.
+
