@@ -3,6 +3,7 @@ on:
     inputs:
       DAY_OF_WEEK:
         type: string
+        default: 'today'
       NAME:
         type: string
         required: false
@@ -22,7 +23,7 @@ jobs:
     runs-on: ubuntu-latest
     name: Check Vars
     env:
-      Greeting: ${{ inputs.GREETING != '' && inputs.GREETING || Hello }}
+      Greeting: ${{ inputs.GREETING != '' && inputs.GREETING || 'Hello' }}
     steps:
       - name: "Run"
         run: |
