@@ -24,7 +24,8 @@ jobs:
         run: |
           echo "$Greeting $First_Name. Today is $DAY_OF_WEEK!"
           echo $NAME
-          echo ${{ env.NAME }}
+          echo ${{ inputs.NAME }}
+          echo "Foo '$FOO' or ${{ env.FOO }}"
         env:
-          First_Name: ${{ env.NAME }}
+          First_Name: ${{ inputs.NAME }}
     
