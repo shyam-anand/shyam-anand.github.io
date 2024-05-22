@@ -1,0 +1,30 @@
+on:
+  workflow_dispatch:
+    inputs:
+      DAY_OF_WEEK:
+        type: string
+      NAME:
+        type: string
+        required: false
+        default: Shyam
+
+name: Example Workflow
+
+env:
+  FOO: "foo"
+
+jobs:
+  check_vars:
+    runs-on: ubuntu-latest
+    name: Check Vars
+    env:
+      Greeting: Hello
+    steps:
+      - name: "Say Hello Mona it's Monday"
+        run: |
+          echo "$Greeting $First_Name. Today is $DAY_OF_WEEK!"
+          echo $NAME
+          echo ${{ env.NAME }}
+        env:
+          First_Name: ${{ env.NAME }}
+    
