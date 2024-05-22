@@ -7,6 +7,10 @@ on:
         type: string
         required: false
         default: Shyam
+      GREETING:
+        type: string
+        required: false
+        default: ''
 
 name: Example Workflow
 
@@ -18,12 +22,12 @@ jobs:
     runs-on: ubuntu-latest
     name: Check Vars
     env:
-      Greeting: Hello
+      Greeting: ${{ inputs.GREETING != '' && inputs.GREETING || Hello }}
     steps:
-      - name: "Say Hello Mona it's Monday"
+      - name: "Run"
         run: |
           echo "$Greeting $First_Name. Today is $DAY_OF_WEEK!"
-          echo $NAME
+          echo $First_Name
           echo ${{ inputs.NAME }}
           echo "Foo '$FOO' or ${{ env.FOO }}"
         env:
